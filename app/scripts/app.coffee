@@ -9,7 +9,7 @@ require "brace/theme/vibrant_ink"
 require "brace/ext/searchbox"
 
 class App
-  POWER_MODE_ACTIVATION_THRESHOLD: 200
+  POWER_MODE_ACTIVATION_THRESHOLD: 100
   STREAK_TIMEOUT: 10 * 1000
 
   MAX_PARTICLES: 500
@@ -38,9 +38,9 @@ class App
     "comment.xml": [0, 255, 121]
 
   EXCLAMATION_EVERY: 10
-  EXCLAMATIONS: ["Super!", "Radical!", "Fantastic!", "Great!", "OMG",
-  "Whoah!", ":O", "Nice!", "Splendid!", "Wild!", "Grand!", "Impressive!",
-  "Stupendous!", "Extreme!", "Awesome!"]
+  EXCLAMATIONS: ["Super!", "Radical!", "Fantastic!", "Great!", "OMG", "Combo!",
+  "Whoah!", ":O", "Nice!", "Splendid!", "Wild!", "Righteous!", "Impressive!",
+  "Stupendous!", "Extreme!", "Awesome!", "Ultra Combo!", "😮"]
 
   currentStreak: 0
   powerMode: false

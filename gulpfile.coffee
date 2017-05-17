@@ -44,6 +44,7 @@ config =
         { test: /\.scss$/, loaders: ["style", "css", "postcss-loader", "sass"] }
         { test: /\.coffee$/, loaders: ["coffee"] }
         { test: /\.png/, loaders: ["url-loader?mimetype=image/png"] }
+        { test: /\.gif/, loaders: ["url-loader?mimetype=image/gif"] }
         { test: /\.ttf/, loaders: ["url-loader?mimetype=font/ttf"] }
       ]
 
